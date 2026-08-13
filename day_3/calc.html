@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Interest Calculator</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #e8f0fe;
+        }
+        .container{
+            width:320px;
+            margin:70px auto;
+            padding:20px;
+            background:white;
+            border:1px solid #000;
+            text-align:center;
+        }
+        input{
+            width:90%;
+            padding:8px;
+            margin:8px 0;
+        }
+        button{
+            padding:8px 20px;
+            margin-top:10px;
+            cursor:pointer;
+        }
+        .output{
+            width:320px;
+            margin:20px auto;
+            padding:15px;
+            background:#fff8dc;
+            border:1px solid #000;
+            text-align:center;
+        }
+        h2{
+            margin-top:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Interest Calculator</h2>
+    <input type="number" id="p" placeholder="Principal Amount">
+    <input type="number" id="r" placeholder="Rate of Interest">
+    <input type="number" id="t" placeholder="Time (Years)">
+    <button onclick="calculate()">Calculate</button>
+</div>
+<div class="output">
+    <h3>Result</h3>
+    <p id="interest">Simple Interest : </p>
+    <p id="amount">Total Amount : </p>
+</div>
+<script>
+function calculate(){
+    var p = Number(document.getElementById("p").value);
+    var r = Number(document.getElementById("r").value);
+    var t = Number(document.getElementById("t").value);
+    var si = (p*r*t)/100;
+    var total = p + si;
+    document.getElementById("interest").innerHTML = "Simple Interest : " + si;
+    document.getElementById("amount").innerHTML = "Total Amount : " + total;
+}</script>
+</body>
+</html>
