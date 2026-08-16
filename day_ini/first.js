@@ -1,19 +1,25 @@
-const profile = {
-    name:"dolly raghav",
-    posts: 6,
-    followers:49,
-    following:5,
-    about:"Student of abes college"
-    
+// let number = prompt("enter the number");
+// console.log(number);
+// if (number%5==0) {
+//     console.log("yes");
+// }
+// else {
+//     console.log("no");
+// }
+let score = prompt("enter the score");
+console.log(score);
+if (score>=80 && score<=100){
+    console.log("Grade A");
 }
-let a=4;
-let b=9;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(++a);
-
-
-
-
+else if (score>=70 && score<=89) {
+    console.log("Grade B");
+}
+else if (score>=60 && score<=69) {
+    console.log("Grade C");
+}
+else if (score>=50 && score<=59) {
+    console.log("Grade D");
+}
+else{
+    console.log("Grade F");
+}
