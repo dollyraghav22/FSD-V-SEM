@@ -4,4 +4,8 @@ const getproducts=async()=>{
     console.log(data.products);
 
 }
-getproducts();
+// getproducts();
+fetch("https://dummyjson.com/products")
+  .then((res)=>console.log(res))
+  .then((data)=>console.log(data))
+  .catch((error)=>console.log(error));
