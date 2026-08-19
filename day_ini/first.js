@@ -1,7 +1,11 @@
-//strings in JS
-let str = "DOLLY RAGHAV";
-let str2 = 'DOLLY RAGHAV';
-console.log(str2[6]);
-let splstr = `This is a template literal`;
-console.log(splstr);
+//Template literal in JS
+let student = {
+    rollno: 23,
+    name:"arjun",
+    class:"CSE",
+
+}
+let output = `The name of roll no. ${student.rollno} is ${student.name} studying in class ${student.class}`
+console.log(output);
+
 
