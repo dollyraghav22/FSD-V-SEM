@@ -1,7 +1,9 @@
-//practice questions on strings.
-//Question by shradha khapra js playlist.
-let username = prompt("Enter your full name");
-console.log("@" + username + username.length);
+//Arrays
+let marks = [250,645,300,900,50];
+for(let i=0;i<marks.length;i++){
+    console.log(marks[i] - (0.1 * marks[i]));
+}
+
 
 
 
