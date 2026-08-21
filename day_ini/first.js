@@ -1,11 +1,7 @@
-//Template literal in JS
-let student = {
-    rollno: 23,
-    name:"arjun",
-    class:"CSE",
+//practice questions on strings.
+//Question by shradha khapra js playlist.
+let username = prompt("Enter your full name");
+console.log("@" + username + username.length);
 
-}
-let output = `The name of roll no. ${student.rollno} is ${student.name} studying in class ${student.class}`
-console.log(output);
 
 
