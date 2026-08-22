@@ -1,8 +1,9 @@
-// MAP IN JS :)
+//FILTER IN JS :)
 let arr = [1,2,3,2];
-let newarray = arr.map((val)=>{
-    console.log(val*val*val);
-})
+let newarray = arr.filter((val)=>{
+    return (val%2==0);
+});
+console.log(newarray);
 
     
    
