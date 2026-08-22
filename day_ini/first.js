@@ -1,9 +1,8 @@
-//Arrays
-let marks = [250,645,300,900,50];
-for(let i=0;i<marks.length;i++){
-    console.log(marks[i] - (0.1 * marks[i]));
-}
+// FOR EACH IN JS :)
+let arr = [2,3,4,2,5];
+arr.forEach((num)=>{
+    console.log(num*num);
 
-
-
-
+});
+    
+   
