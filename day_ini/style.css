@@ -1,0 +1,8 @@
+#heading {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:dotted;
+}
+body {
+    background-color: antiquewhite;
+    box-sizing:content-box;
+}
