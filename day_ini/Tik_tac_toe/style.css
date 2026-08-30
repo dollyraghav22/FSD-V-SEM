@@ -3,9 +3,10 @@
     padding:0;
 }
 body{
-    background-color:cadetblue;
+    background-color:white;
     text-align: center;
     padding: 7vmin;
+    background-image: url("image.png");
 }
 .container{
     height:70vh;
@@ -30,13 +31,13 @@ body{
     border: none;
     box-shadow:0 0 1rem rgba(red, green, blue, alpha);
     font-size: 8vmin;
-    color:brown ;
-    background-color: #ffffc7;
+    color:white ;
+    background-color: #5163b3;
 }
 #reset-button {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #201f10;
+  background-color:black;
   color: #fff;
   border-radius: 1rem;
   border: none;
@@ -50,7 +51,7 @@ body{
   border: none;
 }
 #msg {
-  color: #ffffc7;
+  color: #0e1d7f;
   font-size: 5vmin;
 }
 .msg-container {
