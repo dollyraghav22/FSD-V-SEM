@@ -1,8 +1,7 @@
-#heading {
-    font-family:'Times New Roman', Times, serif;
-    text-decoration:dotted;
+.content{
+    color: red;
 }
-body {
-    background-color: antiquewhite;
-    box-sizing:content-box;
+.newclass{
+    background-color: aqua;
+    
 }
