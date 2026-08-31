@@ -1,13 +1,13 @@
-// PROTOTYPE IN JS (OBJECTS)
-const employee = {
-  caltax(){
-    console.log("tax rate is 10%");
-  }}
-const karanArjun = {
-  salary: 50000,
-}  
-const karanArjun1 = {
-  salary: 60000,
+// CLASSES IN JS
+
+class Toyotacar {
+  start(){
+    console.log("start the car");
+  }
+  stop(){
+    console.log("stop the car");
+  }
+
 }
-karanArjun.__proto__ = employee; 
-karanArjun1.__proto__=employee;
+let Fortuner = new Toyotacar();
+let lexus = new Toyotacar();
