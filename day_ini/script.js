@@ -1,20 +1,13 @@
-// let newbtn = document.createElement("button");
-// newbtn.innerText="click me!";
-// newbtn.style.color="white";
-// newbtn.style.backgroundColor="red";
-// document.querySelector("body").prepend(newbtn);
-let modeBtn = document.querySelector("#mode");
-let currMode="light";//dark
-modeBtn.addEventListener("click",()=>{
-   if(currMode === "light"){
-    currMode="dark";
-    document.querySelector("body").style.backgroundcolor = "black";
-   }
-   else{
-     currMode="light";
-     document.querySelector("body").style.backgroundcolor = "white";
-   }
-   });
-
-    
-   
+// PROTOTYPE IN JS (OBJECTS)
+const employee = {
+  caltax(){
+    console.log("tax rate is 10%");
+  }}
+const karanArjun = {
+  salary: 50000,
+}  
+const karanArjun1 = {
+  salary: 60000,
+}
+karanArjun.__proto__ = employee; 
+karanArjun1.__proto__=employee;
