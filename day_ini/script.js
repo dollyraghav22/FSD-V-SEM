@@ -1,13 +1,16 @@
-// CLASSES IN JS
+// INHERITANCE IN JS
 
-class Toyotacar {
-  start(){
-    console.log("start the car");
+class person{
+  eat(){
+    console.log("a person can eat");
   }
-  stop(){
-    console.log("stop the car");
+  sleep(){
+    console.log("a person can sleep");
   }
-
 }
-let Fortuner = new Toyotacar();
-let lexus = new Toyotacar();
+class doctor extends person {
+  work(){
+    console.log("a doctor can work");
+  }
+}
+let obj = new person();
