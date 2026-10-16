@@ -1,16 +1,19 @@
 // INHERITANCE IN JS
 
-class person{
-  eat(){
-    console.log("a person can eat");
+class user{
+  constructor(name,email){
+    this.name = name;
+    this.email = email;
+
   }
-  sleep(){
-    console.log("a person can sleep");
-  }
-}
-class doctor extends person {
-  work(){
-    console.log("a doctor can work");
+  viewdata(){
+    console.log("you can view the properties of this class");
   }
 }
-let obj = new person();
+class admin extends user{
+  newmethod(){
+    
+  }
+}
+let student1 = new user();
+let student2 = new user();
